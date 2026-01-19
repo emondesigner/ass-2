@@ -15,6 +15,30 @@
 .subscrive-btn{
     display: none;
 } 
+/* banner section start */
+#banner .banner-img img {
+    max-width: 90%;   
+  }
+.banner .new-add h5 {
+  font-size: 20px;
+  top: 21px;
+  right: 24px;
+}
+.banner h1 {
+  font-size: 49px;
+  padding: 30px 0 8px 0;
+}
+.banner p {
+text-align: center;
+padding: 0 20px 24px 20px;
+}
+.banner-img .microphone-img {
+  position: absolute;
+  top: 81px;
+  left: 108px;
+}
+/* banner section end------------------- */
+
 }
  /* -------------------Medium Device---------- */
 @media (min-width:768px) and (max-width:991.98px)  { 

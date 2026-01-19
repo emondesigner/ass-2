@@ -23,12 +23,38 @@ body{
 background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 padding: 12.5px 16px;
 border: none;
-border-radius:  10px;
+border-radius:  15px;
 cursor: pointer;
 color: #fff;
 font-weight: 600;
 font-size: 16px;
+transition: .5s ease-in-out;
+border: 1px solid #FB09B4;
 }
+.primary-btn:hover{
+   color:#00FF88 ;
+   border: 1px solid #00FF88;
+   background: transparent;
+
+}
+.secendry-btn{
+   color:#00FF88 ;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 12px 20px;
+  border-radius:  15px;
+   border: 1px solid #00FF88;
+   cursor: pointer;
+   transition: .5s ease-in-out;
+   background: transparent;
+}
+.secendry-btn:hover{
+    color:#fff ;
+ border: 1px solid #FB09B4;
+   background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+
+}
+
 
 
 /* --------------------- NAVBAR SECTION START--------------- */
@@ -61,6 +87,65 @@ max-width: 219px;
 .hambar-icon{
    cursor: pointer;
    font-size:20px ;
-   font-weight: ;
 }
 /* --------------------- NAVBAR SECTION END--------------- */
+
+
+/* -------------- BANNER SECTION START-- */
+#banner{
+   background-image: url(../assets/hero-bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 101px 0;
+}
+.banner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.banner-img{
+   position: relative;
+}
+.banner-img  .microphone-img {
+   position: absolute;
+   top: 90px;
+   left: 120px;
+}
+.banner .new-add h5{
+   color: #1A0B2E;
+   font-size:18px ;
+   font-weight:600 ;
+   background-color: #00FF88;
+   padding: 8px 16px;
+   display: inline-block;
+   border-radius: 20px;
+   position: absolute;
+   top: 20px;
+   right: 10px;
+}
+.banner h1{
+   color:#fff ;
+   font-size:60px ;
+   font-weight:800 ;
+   padding: 40px 0 8px 0;
+}
+.banner p{
+   color:#fff ;
+   font-size:16px ;
+   font-weight:400 ;
+   padding-bottom: 24px;
+}
+.banner .contact-btn .primary-btn{
+   margin-right: 8px;
+
+}
+.banner .contact-btn .primary-btn i{
+   padding-right: 11px;
+}
+.banner .contact-btn .secendry-btn i{
+   padding-right: 11px;
+}
+
+/* -------------- BANNER SECTION END  -- */
