@@ -1,0 +1,43 @@
+/* -------------------Small  Device---------- */
+@media  (max-width:767.98px){ 
+/* navbar-------------------- */
+#navbar {
+  padding: 20px 0;
+}
+#navbar .logo img{
+    max-width: 137px;
+    padding-left: 20px;
+}
+.hambar-icon{
+    padding-right: 20px;
+ }
+.manu,
+.subscrive-btn{
+    display: none;
+} 
+}
+ /* -------------------Medium Device---------- */
+@media (min-width:768px) and (max-width:991.98px)  { 
+    /* nav section-------------- */
+#navbar .logo img{
+    max-width: 180px;
+    padding-left: 20px;
+}
+.hambar-icon{
+    padding-right: 20px;
+ }
+.manu,
+.subscrive-btn{
+    display: none;
+} 
+
+ }
+
+ 
+/* // Large devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1399.98px) { 
+/* nav section-------------- */
+.hambar-icon{
+    display: none;
+}
+}

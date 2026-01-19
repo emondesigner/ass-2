@@ -1,0 +1,66 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ ol,ul,li{
+    list-style: none;
+ }
+ a{
+    text-decoration: none;   
+ }
+body{
+ font-family: "Inter", sans-serif;
+ background:#1A0B2E ;
+/* background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%); */
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+ .primary-btn{
+background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+padding: 12.5px 16px;
+border: none;
+border-radius:  10px;
+cursor: pointer;
+color: #fff;
+font-weight: 600;
+font-size: 16px;
+}
+
+
+/* --------------------- NAVBAR SECTION START--------------- */
+#navbar{
+   border-bottom: 1px solid #412567;
+   padding: 22px 0;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color:white;
+}
+.navbar .logo img{
+max-width: 219px;
+}
+.navbar .manu ul{
+   display: flex;
+   gap: 32px;
+}
+.navbar .manu ul li a{
+   color:#fff ;
+   font-size:16px ;
+   font-weight:500 ;
+}
+
+.subscrive-btn .btn i{
+   padding-left: 6.5px;
+}
+.hambar-icon{
+   cursor: pointer;
+   font-size:20px ;
+   font-weight: ;
+}
+/* --------------------- NAVBAR SECTION END--------------- */
