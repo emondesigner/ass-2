@@ -59,21 +59,51 @@ padding: 0 20px 24px 20px;
 }
 #about .experience ul {
   width: 95%;
- gap: 40px;
+ gap: 30px;
  flex-wrap: wrap;
 }
 #about .experience ul li{
     width: 45%;
 }
-#about .experience {
-  padding: 50px 0 80px 0;
+#about .experience ul li h2{
+  font-size: 40px;
 }
+#about .experience {
+  padding: 50px 0 30px 0;
+}
+#about .experience ul p {
+  font-size: 13px;
+}
+#about .head-tittle {
+  font-size: 36px;
+}
+
 /* about END------------ */
 
 #teachWeab .teach-card .card:first-child,
 #teachWeab .teach-card .card{
   padding: 24px;
 }
+#teachWeab {
+  padding: 21px 0;
+}
+#teachWeab  .head-tittle {
+  font-size: 30px;
+}
+#teachWeab .teach-card {
+  gap: 0px;
+}
+#teachWeab .teach-card .card{
+  margin-bottom: 20px  ;
+  width: 90%;
+  margin: 0 20px 16px 20px;
+}
+
+
+
+
+
+
 }
 
 
