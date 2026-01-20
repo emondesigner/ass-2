@@ -221,9 +221,9 @@ padding: 40px;
 #teachWeab .teach-card .card:first-child{
    padding: 107px 40px;
 }
-#teachWeab .teach-card .card img{
+/* #teachWeab .teach-card .card img{
    padding: ;
-}
+} */
 #teachWeab .teach-card .card h4{
    color:#fff ;
    font-size:24px ;
@@ -236,3 +236,107 @@ padding: 40px;
    font-weight: 400;
 }
 /* --------- TEACH WEAB ------------- */
+
+/* ------------ Featured Episodes------- */
+#episode{
+     background-color: #1A0B2E;
+}
+#episode .head-tittle{
+   padding-bottom: 40px;
+}
+#episode .episode{
+   gap: 30px;
+}
+#episode .episode-box{
+   background-color:#250D44;
+   border-radius:20px;
+}
+#episode .episode-box .episode-content{
+   padding: 24px;
+}
+#episode .episode-box h4{
+   color:#fff ;
+   font-weight:800 ;
+   font-size:24px ;
+   padding-bottom: 12px;
+}
+#episode .episode-box p{
+   color:#fff ;
+   font-weight:400 ;
+   font-size:16px ;
+   padding-bottom: 12px;
+}
+#episode .episode-box .time-count{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+#episode .episode-box .time-count img{
+   vertical-align: middle;
+}
+#episode .episode-box .time-count p{
+   color: #00FF88;
+   font-size:16px ;
+   font-weight: 600;
+   padding-top: 10px;
+}
+#episode .episode-box .img{
+   position: relative;
+   
+}
+#episode .episode-box .play-button{  
+width: 60px;
+height: 60px;
+background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+border-radius: 50%;
+text-align: center;
+top:50% ;
+transform: translateY(-50%);
+line-height:60px ;
+position: absolute;
+top: 50%;
+left: 40%;
+transform: translateY(-50%);
+}
+#episode .episode-box .play-button i{
+/* position: absolute; */
+cursor: pointer;
+font-size:19px ;
+color: #fff;
+}
+#episode .host-box           
+{
+   display: flex;
+   align-items: center;
+   background-color:#250D44;
+   gap: 40px;
+   padding: 48px 40px;
+   border-radius: 20px;
+}
+#episode .host-contact{
+   margin: 120px 0;
+
+}
+#episode .host-box .man-img{
+   max-width: 40%;
+}
+#episode .host-box .info{
+   max-width: 60%;
+}
+#episode .host-box .info h4{
+   color:#fff ;
+   font-weight:800 ;
+   font-size: 32px;
+   padding-bottom: 16px;
+}
+#episode .host-box .info p{
+   color:#fff ;
+   font-weight:400 ;
+   font-size: 16px;
+   padding-bottom: 16px;
+}
+#episode .host-box .info ul{
+   display: flex;
+   gap: 8px;
+}
+/* ------------ Featured Episodes------- */

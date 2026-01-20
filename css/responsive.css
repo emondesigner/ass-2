@@ -99,6 +99,54 @@ padding: 0 20px 24px 20px;
   margin: 0 20px 16px 20px;
 }
 
+/* ------------ featured episode ----- */
+#episode .head-tittle {
+  font-size: 36px;
+}
+#episode .episode-box{
+  width: 100%;
+}
+#episode .episode {
+  margin: 0 20px 16px 20px;
+}
+#episode .episode-box h4 {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+#episode .episode-box p {
+  padding-bottom: 8px;
+}
+#episode .episode-box .episode-content {
+  padding: 16px;
+}
+
+/* ------ host----- */
+#episode .host-box {
+flex-direction: column;
+padding: 24px;
+}
+#episode .host-box .info{
+   max-width:100%;
+}
+#episode .host-box .man-img{
+   max-width:100%;
+}
+#episode .host-box .info{
+  text-align: center;
+}
+#episode .host-box .info h4{
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+#episode .host-box  ul{
+  justify-content: center;
+  gap: 10px;
+}
+#episode .host-contact {
+  margin: 60px 0;
+}
+/* ------------ featured episode ----- */
+
 
 
 
