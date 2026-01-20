@@ -340,3 +340,39 @@ color: #fff;
    gap: 8px;
 }
 /* ------------ Featured Episodes------- */
+
+
+/* ------------- FOOTER START------------ */
+footer{
+   background-image: url(../assets/footer-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.footer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 120px 0;
+}
+.footer ul {
+  display: flex;
+  gap: 40px;
+  padding: 32px 0;
+  
+}
+.footer ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer ul li p{
+   color: #fff;
+   font-size: 16px;
+   font-weight: 400;
+}
+.footer .footer-copyright{
+   color: #fff;
+}
+/* ------------- FOOTER END----------- */

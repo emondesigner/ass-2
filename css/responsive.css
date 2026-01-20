@@ -145,9 +145,25 @@ padding: 24px;
 #episode .host-contact {
   margin: 60px 0;
 }
+#episode .head-tittle {
+  padding-bottom: 24px;
+}
 /* ------------ featured episode ----- */
 
-
+/* footer-------------------- */
+.footer {
+  padding:40px 20px;
+}
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 32px 32px; 
+}
+.footer .footer-copyright {
+  color: #fff;
+  font-size: 14px;
+}
 
 
 
