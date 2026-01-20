@@ -65,8 +65,15 @@ padding: 0 20px 24px 20px;
 #about .experience ul li{
     width: 45%;
 }
+#about .experience {
+  padding: 50px 0 80px 0;
+}
 /* about END------------ */
 
+#teachWeab .teach-card .card:first-child,
+#teachWeab .teach-card .card{
+  padding: 24px;
+}
 }
 
 

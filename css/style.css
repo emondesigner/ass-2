@@ -157,6 +157,9 @@ max-width: 219px;
 
 
 /* ------------- about start------- */
+#about{
+   background-color: #1A0B2E;
+}
 #about .about{
    padding-bottom: 80px;
     border-bottom: 1px solid #412567;
@@ -197,3 +200,39 @@ padding: 0 180px;
    text-transform: uppercase;
 }
 /* ------------- about end------- */
+
+
+/* --------- TEACH WEAB ------------- */
+#teachWeab {
+   padding: 120px 0;
+}
+#teachWeab .head-tittle{
+   padding-bottom: 40px;
+}
+#teachWeab .teach-card{
+
+   gap: 30px;
+}
+#teachWeab .teach-card .card{
+background-color: #351165;
+border-radius: 15px;
+padding: 40px;
+}
+#teachWeab .teach-card .card:first-child{
+   padding: 107px 40px;
+}
+#teachWeab .teach-card .card img{
+   padding: ;
+}
+#teachWeab .teach-card .card h4{
+   color:#fff ;
+   font-size:24px ;
+   font-weight: 800;
+   padding: 16px 0;
+}
+#teachWeab .teach-card .card p{
+   color:#fff ;
+   font-size:16px ;
+   font-weight: 400;
+}
+/* --------- TEACH WEAB ------------- */
