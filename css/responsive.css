@@ -16,6 +16,9 @@
     display: none;
 } 
 /* banner section start */
+#banner {
+ padding-bottom: 70px;
+}
 #banner .banner-img img {
     max-width: 90%;   
   }
@@ -39,7 +42,49 @@ padding: 0 20px 24px 20px;
 }
 /* banner section end------------------- */
 
+/* about start------------ */
+#about .head-tittle {
+  font-size: 40px;
 }
+#about .about p {
+  padding: 0px 20px;
+}
+#about .about {
+  padding-bottom:40px;
+}
+#about .about .join {
+  padding-top: 20px;
+  padding-left:35px ;
+  padding-right:35px ;
+}
+#about .experience ul {
+  width: 95%;
+ gap: 40px;
+ flex-wrap: wrap;
+}
+#about .experience ul li{
+    width: 45%;
+}
+/* about END------------ */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* -------------------Medium Device---------- */
 @media (min-width:768px) and (max-width:991.98px)  { 
     /* nav section-------------- */

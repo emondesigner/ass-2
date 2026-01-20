@@ -52,7 +52,12 @@ border: 1px solid #FB09B4;
     color:#fff ;
  border: 1px solid #FB09B4;
    background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
-
+}
+.head-tittle{
+text-align: center;
+color: #fff;
+font-weight:800 ;
+font-size: 48px;
 }
 
 
@@ -149,3 +154,46 @@ max-width: 219px;
 }
 
 /* -------------- BANNER SECTION END  -- */
+
+
+/* ------------- about start------- */
+#about .about{
+   padding-bottom: 80px;
+    border-bottom: 1px solid #412567;
+
+}
+#about .about .head-tittle{
+   padding-bottom: 16px;
+}
+#about .about p{
+text-align: center;
+color: #fff;
+font-weight:400 ;
+font-size: 16px;
+padding: 0 180px;
+}
+#about .about  .join{
+   text-align: center;
+   padding-top: 60px;
+   text-align: center;
+}
+#about .experience{
+   padding: 80px 0 120px 0;
+}
+#about .experience ul{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+#about .experience ul li{
+   color: #00FF88;
+   font-size: 48px;
+   font-weight: 800;
+}
+#about .experience ul p{
+   color: #fff;
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+/* ------------- about end------- */
